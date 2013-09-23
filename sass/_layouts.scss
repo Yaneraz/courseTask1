@@ -1,0 +1,19 @@
+// default layout
+.container {
+	margin:0 auto;
+	padding:25px;
+}
+
+.l{
+	width: 100%;
+	display: inline-block;
+	.l-col1{
+		float:left;
+		width: 20%;
+	}
+
+	.l-col2{
+		float:right;
+		width: 70%;
+	}
+}
