@@ -129,7 +129,7 @@ a img, fieldset { border: none; }
 .box .box__head { font-size: 18px; padding: 14px 18px; color: #ebebeb; text-shadow: 0 -1px 1px #000; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6659b0), color-stop(100%, #7aa9bf)); background-image: -webkit-linear-gradient(#6659b0, #7aa9bf); background-image: -moz-linear-gradient(#6659b0, #7aa9bf); background-image: -o-linear-gradient(#6659b0, #7aa9bf); background-image: linear-gradient(#6659b0, #7aa9bf); border-radius: 12px 12px 0 0; }
 .box .box__body { padding: 13px 20px 17px; background: #ececec; border: solid #fff; border-width: 0 1px 1px; border-radius: 0 0 12px 12px; }
 
-.box_short { max-width: 308px; }
+.box_short { max-width: 314px; }
 
 .box_long { max-width: 726px; }
 .box_long .b-submit { border-width: 3px; }
