@@ -24,11 +24,11 @@ a img, fieldset { border: none; }
 ---------------------------------------------------------------------------*/
 .b-input-i { position: relative; }
 
-.b-input { padding: 13px 15px; width: 100%; background: #fff; box-sizing: border-box; border: 1px solid; border-color: #b6b6b6 #cecece #e2e2e2; box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.48); }
+.b-input { padding: 12px 15px; width: 100%; background: #fff; box-sizing: border-box; border: 1px solid; border-color: #b6b6b6 #cecece #e2e2e2; box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.48); }
 
-.b-label { font-size: 18px; display: block; }
+.b-label { font-size: 18px; display: block; margin-bottom: 2px; }
 
-.form .form__field { margin-bottom: 20px; }
+.form .form__field { margin-bottom: 21px; }
 
 .b-submit { padding-top: 13px; border-top: 1px solid #c2c2c2; }
 .b-submit .btn { display: block; }
@@ -36,8 +36,8 @@ a img, fieldset { border: none; }
 /*---------------------------------------------------------------------------
 	[2. Buttons]
 ---------------------------------------------------------------------------*/
-.btn { font-size: 48px; line-height: 57px; display: inline-block; vertical-align: top; padding: 2px 10px 1px; text-decoration: none; text-align: center; color: #fd866b; border-radius: 4px; border: 1px solid; text-shadow: 0 1px 1px #fff; }
-.btn:active { padding: 3px 9px 0 11px; }
+.btn { font-size: 48px; line-height: 57px; display: inline-block; vertical-align: top; padding: 2px 10px; text-decoration: none; text-align: center; color: #fd866b; border-radius: 2px; border: 1px solid; text-shadow: 0 1px 1px #fff; }
+.btn:active { padding: 3px 9px 1px 11px; }
 
 .btn_grey { border-color: #c2c2c2; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(6%, #eae9e9), color-stop(100%, #bebebe)); background-image: -webkit-linear-gradient(#ffffff 0%, #eae9e9 6%, #bebebe 100%); background-image: -moz-linear-gradient(#ffffff 0%, #eae9e9 6%, #bebebe 100%); background-image: -o-linear-gradient(#ffffff 0%, #eae9e9 6%, #bebebe 100%); background-image: linear-gradient(#ffffff 0%, #eae9e9 6%, #bebebe 100%); }
 
@@ -125,17 +125,20 @@ a img, fieldset { border: none; }
 	[4. Elements]
 ---------------------------------------------------------------------------*/
 /* ===== [ box ] ===== */
-.box { margin-bottom: 58px; border-radius: 6px; box-shadow: 0 1px 20px rgba(0, 0, 0, 0.29); }
-.box .box__head { font-size: 18px; padding: 13px 18px; color: #ebebeb; text-shadow: 0 -1px 1px #000; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6659b0), color-stop(100%, #7aa9bf)); background-image: -webkit-linear-gradient(#6659b0, #7aa9bf); background-image: -moz-linear-gradient(#6659b0, #7aa9bf); background-image: -o-linear-gradient(#6659b0, #7aa9bf); background-image: linear-gradient(#6659b0, #7aa9bf); border-radius: 6px 6px 0 0; }
-.box .box__body { padding: 12px 20px 17px; background: #ececec; border: 1px solid #fff; border-radius: 0 0 6px 6px; }
+.box { margin-bottom: 58px; border-radius: 12px; box-shadow: 0 1px 20px rgba(0, 0, 0, 0.29); }
+.box .box__head { font-size: 18px; padding: 14px 18px; color: #ebebeb; text-shadow: 0 -1px 1px #000; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6659b0), color-stop(100%, #7aa9bf)); background-image: -webkit-linear-gradient(#6659b0, #7aa9bf); background-image: -moz-linear-gradient(#6659b0, #7aa9bf); background-image: -o-linear-gradient(#6659b0, #7aa9bf); background-image: linear-gradient(#6659b0, #7aa9bf); border-radius: 12px 12px 0 0; }
+.box .box__body { padding: 13px 20px 17px; background: #ececec; border: solid #fff; border-width: 0 1px 1px; border-radius: 0 0 12px 12px; }
 
-.box_short { max-width: 320px; }
+.box_short { max-width: 308px; }
 
-.box_long { max-width: 730px; }
-.box_long .b-submit .btn { float: left; width: 265px; }
+.box_long { max-width: 726px; }
+.box_long .b-submit { border-width: 3px; }
+.box_long .b-submit .btn { float: left; width: 247px; }
 
 /* ===== [ socials ] ===== */
-.socials { display: inline-block; margin: 0 0 0 34px; }
+.socials { display: inline-block; vertical-align: top; margin: -2px -10px 0 31px; }
+.socials .ico { margin-right: 7px; }
+.socials .ico:last-child { margin-right: 0; }
 
 .button { padding: 9px 14px; font-size: 12px; line-height: normal; border-radius: 5px; display: inline-block; }
 
